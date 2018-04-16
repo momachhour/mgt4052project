@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="TMRecruit" max_length="40" name="x_186270_tmrecruit_tm_applications" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Application number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element choice="3" default="Processing" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Closed - Accepted" value="Closed - Accepted"/>
+                <element label="Closed - Denied" value="Closed - Denied"/>
+                <element label="Interview Denied" value="Interview Denied"/>
+                <element label="Interview Granted" value="Interview Granted"/>
+                <element label="Processing" value="Processing"/>
+                <element label="Under Review" value="Under Review"/>
+            </choice>
+        </element>
+        <element label="New True/False" max_length="40" name="u_boolean_11" type="boolean"/>
+        <element label="When submitted" mandatory="true" max_length="40" name="u_date_time_1" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Enter your anticipated cumulative GPA at the end of Fall 2017." mandatory="true" max_length="50" name="u_q2" type="string"/>
+        <element label="If admitted, I will take responsibility for planning my courses ahead of time to" max_length="40" name="u_q3" type="boolean"/>
+        <element label="If admitted, I will be available to take all T&amp;M classes on campus during Fall 2" max_length="40" name="u_q4" type="boolean"/>
+        <element label="I will not participate in a co-op during the T&amp;M capstone project semester - Spr" max_length="40" name="u_q5" type="boolean"/>
+        <element label="If admitted, I agree to not arrive late to or leave early from any T&amp;M class." max_length="40" name="u_q6" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Q1" mandatory="true" max_length="500" name="u_question_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Student response" max_length="40" name="u_student_response" type="string">
+            <choice>
+                <element label="Accepted" sequence="0" value="accepted"/>
+                <element label="Rejected" sequence="1" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Submitted by" mandatory="true" max_length="32" name="u_submitted_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_submitted_by"/>
+        </index>
+    </element>
+</database>

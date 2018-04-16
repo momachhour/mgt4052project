@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Only people with the user role can make changes to the Student response field.</description>
+        <name>x_186270_tmrecruit_tm_applications.u_student_response</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-16 22:52:59</sys_created_on>
+        <sys_id>1fd1bd89dba11300b9c3f08c0c9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_186270_tmrecruit_tm_applications.u_student_response</sys_name>
+        <sys_package display_value="TMRecruit" source="x_186270_tmrecruit">9f625d05db611300b9c3f08c0c96199f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TMRecruit">9f625d05db611300b9c3f08c0c96199f</sys_scope>
+        <sys_update_name>sys_security_acl_1fd1bd89dba11300b9c3f08c0c9619fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-16 22:52:59</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
