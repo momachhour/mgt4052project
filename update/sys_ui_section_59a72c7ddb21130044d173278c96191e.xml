@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Administrative Questions" section_id="59a72c7ddb21130044d173278c96191e" sys_domain="global" table="x_186270_tmrecruit_tm_applications" version="3" view="Administration_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_43</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:24:24</sys_created_on>
+            <sys_id>084860bddb21130044d173278c9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Administrative Questions" display_value="Administrative Questions" name="x_186270_tmrecruit_tm_applications" sys_domain="global" view="0e506581dba11300b9c3f08c0c961920">59a72c7ddb21130044d173278c96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:24:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_44</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:24:24</sys_created_on>
+            <sys_id>884860bddb21130044d173278c9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Administrative Questions" display_value="Administrative Questions" name="x_186270_tmrecruit_tm_applications" sys_domain="global" view="0e506581dba11300b9c3f08c0c961920">59a72c7ddb21130044d173278c96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:24:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_45</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:24:24</sys_created_on>
+            <sys_id>0c4860bddb21130044d173278c9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Administrative Questions" display_value="Administrative Questions" name="x_186270_tmrecruit_tm_applications" sys_domain="global" view="0e506581dba11300b9c3f08c0c961920">59a72c7ddb21130044d173278c96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:24:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_46</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:24:24</sys_created_on>
+            <sys_id>8c4860bddb21130044d173278c9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Administrative Questions" display_value="Administrative Questions" name="x_186270_tmrecruit_tm_applications" sys_domain="global" view="0e506581dba11300b9c3f08c0c961920">59a72c7ddb21130044d173278c96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:24:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_url_48</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:24:24</sys_created_on>
+            <sys_id>004860bddb21130044d173278c9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Administrative Questions" display_value="Administrative Questions" name="x_186270_tmrecruit_tm_applications" sys_domain="global" view="0e506581dba11300b9c3f08c0c961920">59a72c7ddb21130044d173278c96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:24:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Administrative Questions</caption>
+            <header>false</header>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:21:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59a72c7ddb21130044d173278c96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Administrative Questions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TMRecruit" source="x_186270_tmrecruit">9f625d05db611300b9c3f08c0c96199f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TMRecruit">9f625d05db611300b9c3f08c0c96199f</sys_scope>
+            <sys_update_name>sys_ui_section_59a72c7ddb21130044d173278c96191e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:21:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Administration view" name="Administration_view">0e506581dba11300b9c3f08c0c961920</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

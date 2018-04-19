@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_46" table="x_186270_tmrecruit_tm_applications" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_46</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:24:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>804860bddb21130044d173278c9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:24:24</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_46</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:24:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c04860bddb21130044d173278c9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:24:24</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_46</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Sure</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:24:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>404860bddb21130044d173278c9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:24:24</sys_updated_on>
+            <value>Not Sure</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_46</element>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:24:24</sys_created_on>
+            <sys_id>8c4860bddb21130044d173278c9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_string_46</sys_name>
+            <sys_package display_value="TMRecruit" source="x_186270_tmrecruit">9f625d05db611300b9c3f08c0c96199f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TMRecruit">9f625d05db611300b9c3f08c0c96199f</sys_scope>
+            <sys_update_name>sys_choice_x_186270_tmrecruit_tm_applications_u_string_46</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:24:24</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -10,7 +10,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>If admitted, I will be available to take all T&amp;M classes on campus during Fall 2</column_label>
+        <column_label>I will be available to take all T&amp;M classes on campus during academic Fall 2018-</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -47,15 +47,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-16 23:29:25</sys_created_on>
-        <sys_id>5ccabd8ddba11300b9c3f08c0c961940</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>If admitted, I will be available to take all T&amp;M classes on campus during Fall 2018, Spring 2019, Fall 2019, and Spring 2020.</sys_name>
+        <sys_id>9c081835db21130044d173278c96198e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>I will be available to take all T&amp;M classes on campus during academic Fall 2018-</sys_name>
         <sys_package display_value="TMRecruit" source="x_186270_tmrecruit">9f625d05db611300b9c3f08c0c96199f</sys_package>
         <sys_policy/>
         <sys_scope display_value="TMRecruit">9f625d05db611300b9c3f08c0c96199f</sys_scope>
         <sys_update_name>sys_dictionary_x_186270_tmrecruit_tm_applications_u_q4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-16 23:29:25</sys_updated_on>
+        <sys_updated_on>2018-04-19 00:29:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

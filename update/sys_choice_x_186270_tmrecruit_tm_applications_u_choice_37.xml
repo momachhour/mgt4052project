@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_37" table="x_186270_tmrecruit_tm_applications" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Administraion</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00d5ec3ddb21130044d173278c961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Business Administraion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Computer Science</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40d5ec3ddb21130044d173278c961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Computer Science</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Architecture</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84d5ec3ddb21130044d173278c961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Architecture</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Industrial Design</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04d5ec3ddb21130044d173278c961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Industrial Design</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Music Technology</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80d5ec3ddb21130044d173278c961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Music Technology</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aerospace Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00d5ec3ddb21130044d173278c961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Aerospace Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biomedical Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cd5ec3ddb21130044d173278c961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Biomedical Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chemical Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cd5ec3ddb21130044d173278c961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Chemical Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Civil Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88d5ec3ddb21130044d173278c961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Civil Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Computer Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08d5ec3ddb21130044d173278c961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Computer Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electrical Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84d5ec3ddb21130044d173278c961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Electrical Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Environmental Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04d5ec3ddb21130044d173278c961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Environmental Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Industrial Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80d5ec3ddb21130044d173278c96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Industrial Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Materials Science</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00d5ec3ddb21130044d173278c96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Materials Science</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mechanical Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cd5ec3ddb21130044d173278c96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Mechanical Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nuclear Engineering</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cd5ec3ddb21130044d173278c96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Nuclear Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Liberal Arts</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88d5ec3ddb21130044d173278c96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Liberal Arts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physics</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08d5ec3ddb21130044d173278c96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Physics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biochemstry</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84d5ec3ddb21130044d173278c96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Biochemstry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biology</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04d5ec3ddb21130044d173278c961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Biology</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chemistry</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80d5ec3ddb21130044d173278c961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Chemistry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mathamatics</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>21</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00d5ec3ddb21130044d173278c961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Mathamatics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Neuroscience</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>22</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cd5ec3ddb21130044d173278c961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Neuroscience</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_37</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Psychology</label>
+            <language>en</language>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sequence>23</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cd5ec3ddb21130044d173278c961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+            <value>Psychology</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_37</element>
+            <name>x_186270_tmrecruit_tm_applications</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-19 01:13:45</sys_created_on>
+            <sys_id>0cd5ec3ddb21130044d173278c961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_37</sys_name>
+            <sys_package display_value="TMRecruit" source="x_186270_tmrecruit">9f625d05db611300b9c3f08c0c96199f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TMRecruit">9f625d05db611300b9c3f08c0c96199f</sys_scope>
+            <sys_update_name>sys_choice_x_186270_tmrecruit_tm_applications_u_choice_37</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-19 01:13:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

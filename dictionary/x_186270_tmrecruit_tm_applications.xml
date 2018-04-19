@@ -12,14 +12,149 @@
                 <element label="Under Review" value="Under Review"/>
             </choice>
         </element>
-        <element label="New True/False" max_length="40" name="u_boolean_11" type="boolean"/>
+        <element label="I will complete 18 hours of required T&amp;M courses prior to the beginning of my ca" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="I agree to attend all required T&amp;M events" max_length="40" name="u_boolean_11" type="boolean"/>
+        <element label="Is your permanent address the same as your local address?" max_length="40" name="u_boolean_26" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Business Administraion" label="Indicate your major" mandatory="true" max_length="40" name="u_choice_37" type="string">
+            <choice>
+                <element label="Business Administraion" sequence="0" value="Business Administraion"/>
+                <element label="Computer Science" sequence="1" value="Computer Science"/>
+                <element label="Architecture" sequence="2" value="Architecture"/>
+                <element label="Industrial Design" sequence="3" value="Industrial Design"/>
+                <element label="Music Technology" sequence="4" value="Music Technology"/>
+                <element label="Aerospace Engineering" sequence="5" value="Aerospace Engineering"/>
+                <element label="Biomedical Engineering" sequence="6" value="Biomedical Engineering"/>
+                <element label="Chemical Engineering" sequence="7" value="Chemical Engineering"/>
+                <element label="Civil Engineering" sequence="8" value="Civil Engineering"/>
+                <element label="Computer Engineering" sequence="9" value="Computer Engineering"/>
+                <element label="Electrical Engineering" sequence="10" value="Electrical Engineering"/>
+                <element label="Environmental Engineering" sequence="11" value="Environmental Engineering"/>
+                <element label="Industrial Engineering" sequence="12" value="Industrial Engineering"/>
+                <element label="Materials Science" sequence="13" value="Materials Science"/>
+                <element label="Mechanical Engineering" sequence="14" value="Mechanical Engineering"/>
+                <element label="Nuclear Engineering" sequence="15" value="Nuclear Engineering"/>
+                <element label="Liberal Arts" sequence="16" value="Liberal Arts"/>
+                <element label="Physics" sequence="17" value="Physics"/>
+                <element label="Biochemstry" sequence="18" value="Biochemstry"/>
+                <element label="Biology" sequence="19" value="Biology"/>
+                <element label="Chemistry" sequence="20" value="Chemistry"/>
+                <element label="Mathamatics" sequence="21" value="Mathamatics"/>
+                <element label="Neuroscience" sequence="22" value="Neuroscience"/>
+                <element label="Psychology" sequence="23" value="Psychology"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2019" label="Enter expected year of your graduation" mandatory="true" max_length="40" name="u_choice_39" type="string">
+            <choice>
+                <element label="2019" sequence="0" value="2019"/>
+                <element label="2020" sequence="1" value="2020"/>
+                <element label="2021" sequence="2" value="2021"/>
+                <element label="2022" sequence="3" value="2022"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="No" label="Fall 2018" mandatory="true" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Sure" sequence="2" value="Not Sure"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Fall" label="Enter the expected semester of your graduation" mandatory="true" max_length="40" name="u_choice_41" type="string">
+            <choice>
+                <element label="Fall" sequence="0" value="Fall"/>
+                <element label="Spring" sequence="1" value="Spring"/>
+                <element label="Summer" sequence="2" value="Summer"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Yes" label="Have you previously applied to the Denning T&amp;M Program" mandatory="true" max_length="40" name="u_choice_43" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_choice_43" dependent_on_field="u_choice_43" label="Were you invited for an interview?" max_length="40" name="u_choice_44" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Yes" label="Spring 2019" mandatory="true" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Sure" sequence="2" value="Not Sure"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Yes" label="Fall 2019" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Sure" sequence="2" value="Not Sure"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Yes" label="Spring 2020" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Sure" sequence="2" value="Not Sure"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Low (0)" label="Willingness to make T&amp;M your number one activity" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element label="Low (0)" sequence="0" value="Low (0)"/>
+                <element label="10" sequence="1" value="10"/>
+                <element label="20" sequence="2" value="20"/>
+                <element label="30" sequence="3" value="30"/>
+                <element label="40" sequence="4" value="40"/>
+                <element label="50" sequence="5" value="50"/>
+                <element label="60" sequence="6" value="60"/>
+                <element label="70" sequence="7" value="70"/>
+                <element label="80" sequence="8" value="80"/>
+                <element label="90" sequence="9" value="90"/>
+                <element label="High (100)" sequence="10" value="High (100)"/>
+            </choice>
+        </element>
         <element label="When submitted" mandatory="true" max_length="40" name="u_date_time_1" type="glide_date_time"/>
+        <element label="Please enter your local address" max_length="80" name="u_field_name_19" read_only="true" type="field_name"/>
+        <element label="Please note that a minimum of 30 credit hours on your Georgia Tech transcript be" max_length="80" name="u_field_name_2" read_only="true" type="field_name"/>
+        <element dependent="u_boolean_26" dependent_on_field="u_boolean_26" label="Please enter your permanent address" max_length="80" name="u_field_name_27" type="field_name" use_dependent_field="true"/>
+        <element label="Please indicate whether you plan to participate in a co-op during the following " max_length="80" name="u_field_name_3" read_only="true" type="field_name"/>
+        <element label="Indicate your willingness to make T&amp;M your number one extra curricular activity " max_length="80" name="u_field_name_9" read_only="true" type="field_name"/>
+        <element label="GT ID" mandatory="true" max_length="40" name="u_integer_16" type="integer"/>
+        <element label="Verity GT ID" max_length="40" name="u_integer_17" type="integer"/>
+        <element label="Zipcode" mandatory="true" max_length="40" name="u_integer_25" type="integer"/>
+        <element label="Zipcode" max_length="40" name="u_integer_33" type="integer"/>
+        <element label="Phone Number (only numbers, no other characters)" mandatory="true" max_length="40" name="u_integer_36" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Enter your anticipated cumulative GPA at the end of Fall 2017." mandatory="true" max_length="50" name="u_q2" type="string"/>
-        <element label="If admitted, I will take responsibility for planning my courses ahead of time to" max_length="40" name="u_q3" type="boolean"/>
-        <element label="If admitted, I will be available to take all T&amp;M classes on campus during Fall 2" max_length="40" name="u_q4" type="boolean"/>
-        <element label="I will not participate in a co-op during the T&amp;M capstone project semester - Spr" max_length="40" name="u_q5" type="boolean"/>
-        <element label="If admitted, I agree to not arrive late to or leave early from any T&amp;M class." max_length="40" name="u_q6" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Q1" mandatory="true" max_length="500" name="u_question_1" type="string"/>
+        <element label="I will take responsibility for planning my courses ahead of time to ensure timel" max_length="40" name="u_q3" type="boolean"/>
+        <element label="I will be available to take all T&amp;M classes on campus during academic Fall 2018-" max_length="40" name="u_q4" type="boolean"/>
+        <element label="I will not participate in a co-op during the T&amp;M capstone project semester" max_length="40" name="u_q5" type="boolean"/>
+        <element label="I agree to not arrive late or leave early from any T&amp;M class." max_length="40" name="u_q6" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Estimate of number of credit hours you will have earned before the start of Fall" mandatory="true" max_length="500" name="u_question_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Preferred Name" mandatory="true" max_length="40" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Middle Name" max_length="40" name="u_string_12" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="u_string_13" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Suffix" max_length="40" name="u_string_14" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Georgia Tech email address" mandatory="true" max_length="40" name="u_string_15" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Verify Georgia Tech email address" mandatory="true" max_length="40" name="u_string_18" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Line one" mandatory="true" max_length="40" name="u_string_20" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Line two" max_length="40" name="u_string_21" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Line three" max_length="40" name="u_string_22" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" mandatory="true" max_length="40" name="u_string_23" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" mandatory="true" max_length="40" name="u_string_24" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_boolean_26" dependent_on_field="u_boolean_26" label="Line one" max_length="40" name="u_string_28" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Line Two" max_length="40" name="u_string_29" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Line Three" max_length="40" name="u_string_30" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_string_31" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_string_32" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="u_string_34" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_choice_43" dependent_on_field="u_choice_43" label="With whom did you interview?" max_length="40" name="u_string_45" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Will you be on campus for spring 2018? (solely for planning purposes)" mandatory="true" max_length="40" name="u_string_46" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Sure" sequence="2" value="Not Sure"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Please enter any comments related to your current major" max_length="255" name="u_string_full_utf8_38" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="What are your most important goals following graduation from Georgia Tech and ho" mandatory="true" max_length="255" name="u_string_full_utf8_42" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Student response" max_length="40" name="u_student_response" type="string">
             <choice>
                 <element label="Accepted" sequence="0" value="accepted"/>
@@ -27,6 +162,7 @@
             </choice>
         </element>
         <element label="Submitted by" mandatory="true" max_length="32" name="u_submitted_by" reference="sys_user" type="reference"/>
+        <element label="Please enter your LinkedIn Profile URL" max_length="1024" name="u_url_48" type="url"/>
         <index name="index">
             <element name="u_submitted_by"/>
         </index>
