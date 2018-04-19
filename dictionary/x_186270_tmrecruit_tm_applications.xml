@@ -4,12 +4,10 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Application number" mandatory="true" max_length="40" name="number" type="string"/>
         <element choice="3" default="Processing" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
-                <element label="Closed - Accepted" value="Closed - Accepted"/>
-                <element label="Closed - Denied" value="Closed - Denied"/>
-                <element label="Interview Denied" value="Interview Denied"/>
-                <element label="Interview Granted" value="Interview Granted"/>
-                <element label="Processing" value="Processing"/>
-                <element label="Under Review" value="Under Review"/>
+                <element label="Closed - Accepted" sequence="0" value="Closed - Accepted"/>
+                <element label="Closed - Denied" sequence="1" value="Closed - Denied"/>
+                <element label="Interview Granted" sequence="2" value="Interview Granted"/>
+                <element label="Processing" sequence="3" value="Processing"/>
             </choice>
         </element>
         <element label="I will complete 18 hours of required T&amp;M courses prior to the beginning of my ca" max_length="40" name="u_boolean_1" type="boolean"/>
@@ -110,12 +108,18 @@
                 <element label="High (100)" sequence="10" value="High (100)"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does applicant criteria match scoring guidelines?" max_length="40" name="u_criteria_match" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
         <element label="When submitted" mandatory="true" max_length="40" name="u_date_time_1" type="glide_date_time"/>
         <element label="Please enter your local address" max_length="80" name="u_field_name_19" read_only="true" type="field_name"/>
         <element label="Please note that a minimum of 30 credit hours on your Georgia Tech transcript be" max_length="80" name="u_field_name_2" read_only="true" type="field_name"/>
         <element dependent="u_boolean_26" dependent_on_field="u_boolean_26" label="Please enter your permanent address" max_length="80" name="u_field_name_27" type="field_name" use_dependent_field="true"/>
-        <element label="Please indicate whether you plan to participate in a co-op during the following " max_length="80" name="u_field_name_3" read_only="true" type="field_name"/>
-        <element label="Indicate your willingness to make T&amp;M your number one extra curricular activity " max_length="80" name="u_field_name_9" read_only="true" type="field_name"/>
+        <element label="Please indicate whether you plan to participate in a co-op during the following" max_length="80" name="u_field_name_3" read_only="true" type="field_name"/>
+        <element label="Indicate your willingness to make T&amp;M your number one extra curricular activity" max_length="80" name="u_field_name_9" read_only="true" type="field_name"/>
         <element label="GT ID" mandatory="true" max_length="40" name="u_integer_16" type="integer"/>
         <element label="Verity GT ID" max_length="40" name="u_integer_17" type="integer"/>
         <element label="Zipcode" mandatory="true" max_length="40" name="u_integer_25" type="integer"/>
