@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_string_full_utf8_42" table="x_186270_tmrecruit_tm_applications">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_field_name_8" table="x_186270_tmrecruit_tm_applications">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>What are your most important goals following graduation from Georgia Tech</column_label>
+        <column_label>Tell about an experience working on a team</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,16 +23,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_string_full_utf8_42</element>
+        <element>u_field_name_8</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="">string_full_utf8</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>255</max_length>
+        <internal_type display_value="">field_name</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>80</max_length>
         <name>x_186270_tmrecruit_tm_applications</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -46,16 +46,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-19 01:18:39</sys_created_on>
-        <sys_id>e28fc5cadb29130044d173278c9619d0</sys_id>
+        <sys_created_on>2018-04-20 01:12:16</sys_created_on>
+        <sys_id>f70fa58adb69130044d173278c961927</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>What are your most important goals following graduation from Georgia Tech</sys_name>
+        <sys_name>Tell about an experience working on a team</sys_name>
         <sys_package display_value="TMRecruit" source="x_186270_tmrecruit">9f625d05db611300b9c3f08c0c96199f</sys_package>
         <sys_policy/>
         <sys_scope display_value="TMRecruit">9f625d05db611300b9c3f08c0c96199f</sys_scope>
-        <sys_update_name>sys_dictionary_x_186270_tmrecruit_tm_applications_u_string_full_utf8_42</sys_update_name>
+        <sys_update_name>sys_dictionary_x_186270_tmrecruit_tm_applications_u_field_name_8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-20 01:05:51</sys_updated_on>
+        <sys_updated_on>2018-04-20 01:12:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

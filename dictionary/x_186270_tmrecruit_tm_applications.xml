@@ -10,7 +10,7 @@
                 <element label="Processing" sequence="3" value="Processing"/>
             </choice>
         </element>
-        <element label="I will complete 18 hours of required T&amp;M courses prior to the beginning of my ca" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="I will complete 18 hours of required T&amp;M courses prior to the capstone course" max_length="40" name="u_boolean_1" type="boolean"/>
         <element label="I agree to attend all required T&amp;M events" max_length="40" name="u_boolean_11" type="boolean"/>
         <element label="Is your permanent address the same as your local address?" max_length="40" name="u_boolean_26" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Business Administraion" label="Indicate your major" mandatory="true" max_length="40" name="u_choice_37" type="string">
@@ -119,6 +119,8 @@
         <element label="Please note that a minimum of 30 credit hours on your Georgia Tech transcript be" max_length="80" name="u_field_name_2" read_only="true" type="field_name"/>
         <element dependent="u_boolean_26" dependent_on_field="u_boolean_26" label="Please enter your permanent address" max_length="80" name="u_field_name_27" type="field_name" use_dependent_field="true"/>
         <element label="Please indicate whether you plan to participate in a co-op during the following" max_length="80" name="u_field_name_3" read_only="true" type="field_name"/>
+        <element label="Describe your leadership experience" max_length="80" name="u_field_name_7" read_only="true" type="field_name"/>
+        <element label="Tell about an experience working on a team" max_length="80" name="u_field_name_8" read_only="true" type="field_name"/>
         <element label="Indicate your willingness to make T&amp;M your number one extra curricular activity" max_length="80" name="u_field_name_9" read_only="true" type="field_name"/>
         <element label="GT ID" mandatory="true" max_length="40" name="u_integer_16" type="integer"/>
         <element label="Verity GT ID" max_length="40" name="u_integer_17" type="integer"/>
@@ -126,11 +128,12 @@
         <element label="Zipcode" max_length="40" name="u_integer_33" type="integer"/>
         <element label="Phone Number (only numbers, no other characters)" mandatory="true" max_length="40" name="u_integer_36" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Enter your anticipated cumulative GPA at the end of Fall 2017." mandatory="true" max_length="50" name="u_q2" type="string"/>
-        <element label="I will take responsibility for planning my courses ahead of time to ensure timel" max_length="40" name="u_q3" type="boolean"/>
-        <element label="I will be available to take all T&amp;M classes on campus during academic Fall 2018-" max_length="40" name="u_q4" type="boolean"/>
+        <element label="I will take responsibility for planning my courses ahead of time" max_length="40" name="u_q3" type="boolean"/>
+        <element label="I will be available to take all T&amp;M classes on campus during 2 academic years" max_length="40" name="u_q4" type="boolean"/>
         <element label="I will not participate in a co-op during the T&amp;M capstone project semester" max_length="40" name="u_q5" type="boolean"/>
         <element label="I agree to not arrive late or leave early from any T&amp;M class." max_length="40" name="u_q6" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Estimate of number of credit hours you will have earned before the start of Fall" mandatory="true" max_length="500" name="u_question_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How many credit hours will you have earned before the start of Fall 2018" mandatory="true" max_length="500" name="u_question_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="In what type of position do you see yourself working in after graduation" mandatory="true" max_length="2000" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="u_string_10" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Preferred Name" mandatory="true" max_length="40" name="u_string_11" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Middle Name" max_length="40" name="u_string_12" type="string"/>
@@ -138,6 +141,7 @@
         <element attributes="edge_encryption_enabled=true" label="Suffix" max_length="40" name="u_string_14" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Georgia Tech email address" mandatory="true" max_length="40" name="u_string_15" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Verify Georgia Tech email address" mandatory="true" max_length="40" name="u_string_18" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe your work experience" mandatory="true" max_length="2000" name="u_string_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Line one" mandatory="true" max_length="40" name="u_string_20" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Line two" max_length="40" name="u_string_21" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Line three" max_length="40" name="u_string_22" type="string"/>
@@ -157,8 +161,10 @@
                 <element label="Not Sure" sequence="2" value="Not Sure"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Describe your foreign language skills and proficiency" mandatory="true" max_length="1000" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe any reasons you might limit your participation in events after 6pm" max_length="40" name="u_string_6" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Please enter any comments related to your current major" max_length="255" name="u_string_full_utf8_38" type="string_full_utf8"/>
-        <element attributes="edge_encryption_enabled=true" label="What are your most important goals following graduation from Georgia Tech and ho" mandatory="true" max_length="255" name="u_string_full_utf8_42" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="What are your most important goals following graduation from Georgia Tech" mandatory="true" max_length="255" name="u_string_full_utf8_42" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Student response" max_length="40" name="u_student_response" type="string">
             <choice>
                 <element label="Accepted" sequence="0" value="accepted"/>

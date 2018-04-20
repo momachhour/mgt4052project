@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="u_boolean_1" label="I will complete 18 hours of required T&amp;M courses prior to the beginning of my ca" language="en" table="x_186270_tmrecruit_tm_applications">
+    <sys_documentation element="u_boolean_1" label="I will complete 18 hours of required T&amp;M courses prior to the capstone course" language="en" table="x_186270_tmrecruit_tm_applications">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_boolean_1</element>
             <help/>
             <hint/>
-            <label>I will complete 18 hours of required T&amp;M courses prior to the beginning of my ca</label>
+            <label>I will complete 18 hours of required T&amp;M courses prior to the capstone course</label>
             <language>en</language>
             <name>x_186270_tmrecruit_tm_applications</name>
-            <plural>I will complete 18 hours of required T&amp;M courses prior to the beginning of my ca</plural>
+            <plural>I will complete 18 hours of required T&amp;M courses prior to the capstone courses</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-04-19 00:33:00</sys_created_on>
             <sys_id>fe7c18f5db21130044d173278c9619f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>I will complete 18 hours of required T&amp;M courses prior to the beginning of my capstone semester</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>I will complete 18 hours of required T&amp;M courses prior to the capstone course</sys_name>
             <sys_package display_value="TMRecruit" source="x_186270_tmrecruit">9f625d05db611300b9c3f08c0c96199f</sys_package>
             <sys_policy/>
             <sys_scope display_value="TMRecruit">9f625d05db611300b9c3f08c0c96199f</sys_scope>
             <sys_update_name>sys_documentation_x_186270_tmrecruit_tm_applications_u_boolean_1_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-19 00:33:00</sys_updated_on>
+            <sys_updated_on>2018-04-20 01:05:51</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
